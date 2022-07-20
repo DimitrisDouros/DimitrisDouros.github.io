@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="el-GR">
 <head>
-  <title></title>
+  <title>testpage</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
    <link href="https://bootswatch.com/5/yeti/bootstrap.min.css" rel="stylesheet">
@@ -9,8 +9,187 @@
 </head>
 
 <body>
-  <div class="container">bootstrap page
-  </div>
+<div class="container">
+<!-- Navigation Bar -->
+	<nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-top"> <!-- "fixed-top" -->
+	  <div class="container p-6">
+		<a class="navbar-brand" href="index.html">Sfgdfcs Adfsdf</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="index.html#hours">Ωράριο λειτουργίας</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="index.html#about">About</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="index.html#contact">Contact</a>
+			</li>
+		  </ul>
+		 </div>
+	  </div>
+	</nav>
+	 
+	 
+    <div class="row pt-5">
+      <div class="col-md-12 pt-4">
+ 
+		<!-- Carousel -->
+		<div id="pictures" class="carousel slide" data-bs-ride="carousel">
 
-</body>
-</html>
+		  <!-- Indicators/dots -->
+		  <div class="carousel-indicators">
+			<button type="button" data-bs-target="#pictures" data-bs-slide-to="0" class="active"></button>
+			<button type="button" data-bs-target="#pictures" data-bs-slide-to="1"></button>
+			<button type="button" data-bs-target="#pictures" data-bs-slide-to="2"></button>
+			<button type="button" data-bs-target="#pictures" data-bs-slide-to="3"></button>
+		  </div>
+
+		  <!-- The slideshow/carousel -->
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <img src="img/test.jpg" alt="image" class="rounded d-block w-100">
+			</div>
+			<div class="carousel-item">
+			  <img src="img/test.jpg" alt="image" class="rounded d-block w-100">
+			</div>
+			<div class="carousel-item">
+			  <img src="img/test.jpg" alt="image" class="rounded d-block w-100">
+			</div>
+			<div class="carousel-item">
+			  <img src="img/test.jpg" alt="image" class="rounded d-block w-100">
+			</div>
+		  </div>
+
+		  <!-- Left and right controls/icons -->
+		  <button class="carousel-control-prev" type="button" data-bs-target="#pictures" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#pictures" data-bs-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		  </button>
+		</div>
+	  </div>
+	</div>
+	 
+	 <!-- show stuff only md screen and up class="d-none d-md-block" -->
+	 
+	<div class="row">
+      <div class="col-md-12">
+	 
+		 <p class="pb-2">
+		 <h1 class="text-primary"><strong>SFFSDF SDFSDF</strong><br>
+		 <small class = "text-muted">Ειδικός Παθολόγος
+		 </h1>
+		 </p>
+		 
+		 <p class="p-2">
+		 <h3 class = "text-body"><strong>Ιντζέ Ν. 5</strong><br>
+		 <small class = "text-muted">Intze 5<br>
+		 <strong><small><a href="#contact">view on map<a/></strong></small>
+		 </h3>
+		 </p>
+		 
+		 <p class="p-2">
+		 <h3 class = "text-body">Τηλέφωνο:
+		 <small class="text-muted">0897986896</small>
+		 </h3>
+		 <h3 class = "text-body">Κινητό:
+		 <small class="text-muted">98687567567</small>
+		 </h3>
+
+		 
+		 <section id="hours">
+		 <p class="p-2">
+		 <h3 class = "text-body">ΩΡΑΡΙΟ ΛΕΙΤΟΥΡΓΙΑΣ:</h3> 
+		 
+		 <div class="cntainer">
+		  <table class="table shadow-sm bg-white"">
+			<thead>
+			  <tr class="bg-light">
+				<th></th>
+				<th style="text-align:center;vertical-align:middle;">ΠΡΩΙ</th>
+				<th style="text-align:center;vertical-align:middle;">ΑΠΟΓΕΥΜΑ</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td>Δευ</td>
+				<td style="text-align:center;vertical-align:middle;">8:00 π.μ. – 1:00 μ.μ.</td>
+				<td style="text-align:center;vertical-align:middle;">–</td>
+			  </tr>
+			  <tr>
+				<td>Τρί</td>
+				<td style="text-align:center;vertical-align:middle;">8:00 π.μ. – 1:00 μ.μ.</td>
+				<td style="text-align:center;vertical-align:middle;">5:30 – 8:00 μ.μ.</td>
+			  </tr>
+			  <tr>
+				<td>Τετ</td>
+				<td style="text-align:center;vertical-align:middle;">8:00 π.μ. – 1:00 μ.μ.</td>
+				<td style="text-align:center;vertical-align:middle;">–</td>
+			  </tr>
+			  <tr>
+				<td>Πέμ</td>
+				<td style="text-align:center;vertical-align:middle;">8:00 π.μ. – 1:00 μ.μ.</td>
+				<td style="text-align:center;vertical-align:middle;">5:30 – 8:00 μ.μ.</td>
+			  </tr>
+			  <tr>
+				<td>Παρ</td>
+				<td style="text-align:center;vertical-align:middle;">8:00 π.μ. – 1:00 μ.μ.</td>
+				<td style="text-align:center;vertical-align:middle;">5:30 – 8:00 μ.μ.</td>
+			  </tr>
+			</tbody>
+		  </table>
+		</div>
+
+		</section>
+		
+	<section id="about">		
+	<div class="row py-5">
+       <div class="col-md-12">
+		<h4 class = "text-body">
+		sed posuere risus vel euismod mollis, libero nibh pellentesque quam, in blandit dui urna eu ex. Vestibulum magna ipsum, faucibus et orci sed, semper fermentum mauris. Praesent nec interdum nisl, vel aliquet lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec lorem quam. Sed et commodo erat, ac pellentesque dolor. Ut congue pharetra viverra. Maecenas sed leo quis velit convallis cursus sed non ex. Mauris nec neque rhoncus, commodo tortor laoreet, varius tortor. Fusce condimentum elementum est, nec mollis lorem posuere et. 
+		</h4>
+	  </div>
+	</div>
+		</section>
+
+      </div>
+	</div>
+
+</div>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+
+<div class="container shadow-none p-4 mb-5 bg-light">
+  <div class="row">
+    <div class="col-md-4 text-center">
+      <p><h5><b>Contact</b></h5></p>
+	</div>
+	<div class="col-md-3 text-center text-md-start pb-5">
+      <p><h5><b>fjeksdle dfer</b></h5></p>
+	</div>
+    <div class="col-md-5 text-center text-md-start">
+	  <!-- google map -->
+		<div class="mapouter text-center">
+		  <div class="gmap_canvas">
+			<iframe width="350" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Intze%205,%20303%2000%20Nafpaktos&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+			title="google map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="border rounded">
+			</iframe><br>
+		  </div>
+		</div>	  
+	</div>
+  </div>
+ </div>
+</section>
+<!-- END CONTACT SECTION -->
+
+
+</body></html>
