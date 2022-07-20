@@ -200,11 +200,12 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <script type="text/javascript">
-   $(document).on('click','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a') ) {
-        $(this).collapse('hide');
+$(".navbar-nav li a").click(function (event) {
+    var toggle = $(".navbar-toggler").is(":visible");
+    if (toggle) {
+      $(".navbar-collapse").collapse('hide');
     }
-});
+  });
 </script>
 
 </body></html>
