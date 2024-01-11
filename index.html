@@ -214,6 +214,14 @@
 	navLinks.forEach( function(l) { l.addEventListener('click', function() {  
 	if (menuToggle.classList.contains('show')) { bsCollapse.toggle(); } }); });
 </script>
+<!-- JavaScript to initialize carousel based on screen size -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var picturesCarousel = new bootstrap.Carousel(document.getElementById('pictures'), {
+      interval: window.innerWidth > 576 ? 5000 : false // Adjust the interval as needed
+    });
+  });
+</script>
 
 
 </body>
