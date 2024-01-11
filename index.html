@@ -8,14 +8,19 @@
   <link href="https://bootswatch.com/5/yeti/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-  <style>
+<style>
   @media (max-width: 576px) {
-    #pictures.carousel img {
-      height: 200px;
+    #pictures.carousel .carousel-item img {
+      height: 300px;
       object-fit: cover; /* Maintain aspect ratio and cover container */
     }
+    #pictures .carousel-control-prev,
+    #pictures .carousel-control-next,
+    #pictures .carousel-indicators {
+      display: none;
+    }
   }
-  </style>
+</style>
 	
 </head>
 
